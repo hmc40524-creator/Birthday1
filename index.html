@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>👀</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="intro.css">
+</head>
+<body>
+
+<div class="box">
+  <div id="text"></div>
+  <button id="btn">ดูอะไรหน่อย 👀</button>
+</div>
+
+<!-- กล่องถามก่อนเข้าเค้ก -->
+<div class="modal hidden" id="readyModal">
+  <div class="modal-box">
+    <p class="modal-text">จะดูจริงดิ?</p>
+    <div class="modal-btns">
+      <button onclick="goCake()">ดู!!!!!😊</button>
+      <button class="cancel" onclick="closeModal()">ไม่ดู 🙈</button>
+    </div>
+  </div>
+</div>
+
+<script src="intro.js"></script>
+</body>
+</html>
